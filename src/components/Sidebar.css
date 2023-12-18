@@ -1,0 +1,66 @@
+/* Sidebar.css */
+
+.sidebar {
+  height: 50%;
+  width: 10em;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0;
+  left: 0;
+  text-align: center;
+  background-color: #900404; /* Soft pink background color */
+  overflow-x: hidden;
+  padding-top: 20px;
+  transition: width 0.3s, box-shadow 0.3s;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #e1e0e6; /* Purple text color */
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 10px;
+  margin-bottom: 10px; /* Adjusted margin for smaller screens */
+}
+
+.sidebar a:hover {
+  background-color: #100a11; /* Light purple background on hover */
+}
+
+.sidebar a.active {
+  background-color: #130303; /* Soft pink highlight for active link */
+  color: #111010;
+}
+
+/* Optional: Add a subtle animation for link selection */
+.sidebar a:active {
+  transform: scale(0.95);
+}
+
+/* Add a nice transition effect for the sidebar width */
+.sidebar.collapsed {
+  width: 80px;
+}
+
+/* Add this to your CSS file or style block */
+@media screen and (max-width: 100px) {
+  /* Adjust styles for smaller screens */
+
+  .sidebar {
+    width: 25%;
+    height:25%;
+    padding-top: 5px; /* Adjusted padding for smaller screens */
+    box-shadow: none; /* Remove box shadow for smaller screens */
+  }
+
+  .sidebar a {
+    margin-bottom: 5px; /* Further reduced margin for smaller screens */
+  }
+
+  .sidebar.collapsed {
+    width: 25%;
+  }
+}
