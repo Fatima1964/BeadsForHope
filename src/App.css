@@ -29,11 +29,20 @@
   color: #fff; /* Text color on top of the background */
 }
 
-.message-container{
-  margin-left: 10em;
-  color:white;
-  text-align:start;
+
+.message-container {
+  margin-left: 22em;
+  color: rgb(223, 210, 210);
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(9, 0, 0, 0.5); /* Adjust values as needed */
 }
-h3{
-  margin-left: 12em;
+
+.poem {
+  color: rgb(223, 210, 210);
+  margin-left: 15em;
+  text-align: center;
+  display: grid;
+  font-size: xx-large;
+  font-weight: 600;
+  text-shadow: 4px 4px 4px rgba(8, 0, 0, 0.5); /* Adjust values as needed */
 }

@@ -1,0 +1,26 @@
+/* styles.css */
+
+.contact-container {
+  display:absolute;
+  border: 5px solid #ccc;
+  background-color: rgb(167, 19, 5);
+  padding: 40px;
+  margin-top: 5em;
+  max-width: 300px;
+  max-height: 300px;
+  margin-left: 25em;
+  border-radius: 8px;
+}
+
+.contact-info {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-number {
+  color: #4b9df5;
+}
+
+.email {
+  color: #15eb47;
+}

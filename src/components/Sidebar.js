@@ -10,6 +10,7 @@ function Sidebar() {
       <Link to="/about">About</Link> {/* Link to the new "About" page */}
       <Link to="/contact">Contact Us</Link>
      <Link to='/products'>Products</Link>
+     <Link to='/mission'>Mission</Link>
     </div>
   );
 }

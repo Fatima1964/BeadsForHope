@@ -6,7 +6,7 @@
   }
   
   .motivational-word-container {
-    display: block;
+    display:inline;
     margin: 15px 15px;
     margin-bottom: 20px;
     font-weight: bold;

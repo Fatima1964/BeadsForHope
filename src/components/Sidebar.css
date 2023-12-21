@@ -1,11 +1,11 @@
 /* Sidebar.css */
 
 .sidebar {
-  height: 50%;
+  height: 40%;
   width: 10em;
   position: fixed;
   z-index: 1;
-  margin-top: 0;
+  margin-top: 5em;
   left: 0;
   text-align: center;
   background-color: #900404; /* Soft pink background color */
@@ -18,8 +18,8 @@
 .sidebar a {
   padding: 10px;
   text-decoration: none;
-  font-size: 18px;
-  color: #e1e0e6; /* Purple text color */
+  font-size: 20px;
+  color: #e1e0e6; 
   display: block;
   transition: background-color 0.3s, color 0.3s;
   border-radius: 10px;

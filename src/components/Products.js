@@ -3,12 +3,12 @@ import './Products.css';
 
 const Products = () => {
   const products = [
-    { id: 1, name: 'Personalized Bracelet', price: 15, image: '/P1.jpeg' },
-    { id: 2, name: 'Shapes Bracelet', price: 15, image: '/P1.jpeg' },
-    { id: 3, name: 'KeyChain', price: 10, image: 'url-to-image3.jpg' },
-    { id: 4, name: 'Necklace', price: 25, image: 'url-to-image1.jpg' },
+    { id: 1, name: 'Personalized Bracelet', price: 15, image: '/P1.jpg' },
+    { id: 2, name: 'Shapes Bracelet', price: 15, image: '/P5.jpg' },
+    { id: 3, name: 'KeyChain', price: 10, image: '/P3.jpg' },
+    { id: 4, name: 'Necklace', price: 25, image: '/P1.jpg' },
     { id: 5, name: 'Phone Chain', price: 20, image: '/P4.jpg' },
-    { id: 6, name: 'Gift Set', price: 45, image: 'url-to-image3.jpg' },
+    { id: 6, name: 'Gift Set', price: 45, image: '/P5.jpg' },
     // Add more products as needed
   ];
 
