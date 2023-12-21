@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react';
 import './About.css';
 
+
 const About = () => {
   useEffect(() => {
     console.log('About component rendered');
@@ -11,7 +12,7 @@ const About = () => {
     <div className="about-container">
       <img
         className="owner-image"
-        url="/lana2.jpg" // Use the correct path from the public folder
+        src="images/lana2.jpg" // Use the correct path from the public folder
         alt="Owner"
 
       />
