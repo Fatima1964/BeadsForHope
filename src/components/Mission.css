@@ -2,9 +2,10 @@
 
 .mission-container {
   display:grid;
-    max-width: 10em;
+    width: 10em;
     margin: 20px auto;
     margin-left: 20em;
+    margin-top: 2em;
     padding: 20px;
     color:white;
     border: 1px solid #ccc;

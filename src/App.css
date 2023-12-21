@@ -23,7 +23,7 @@
   text-align: center;
   background: url("/public/bb4.jpg") center/cover; /* Adjust the path as needed */
   height: 100vh;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   color: #fff; /* Text color on top of the background */
