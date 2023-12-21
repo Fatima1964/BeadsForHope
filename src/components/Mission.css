@@ -1,7 +1,7 @@
 /* Mission.css */
 
 .mission-container {
-  display:inline-flexbox;
+  display:grid;
     max-width: 10em;
     margin: 20px auto;
     margin-left: 20em;
