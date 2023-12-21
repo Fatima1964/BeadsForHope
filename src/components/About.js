@@ -11,8 +11,9 @@ const About = () => {
     <div className="about-container">
       <img
         className="owner-image"
-        src="/Lana2.jpg" // Use the correct path from the public folder
+        url="/Lana2.jpg" // Use the correct path from the public folder
         alt="Owner"
+
       />
       <div className="owner-description">
         <h4>Lana's Hope</h4>
