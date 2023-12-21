@@ -15,8 +15,8 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  height: 40em;
-  width: 25em;
+  height: 20em;
+  width: 15em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   border: 2px solid #a72d1f; /* Red border */
   border-radius: 10px; /* Rounded corners */
@@ -27,8 +27,7 @@
 
 .owner-image {
   display: flex;
-  
-  width: 100%;
+  width: 80%;
   height: 50%; /* Adjust size as needed */
   border-radius: 1%;
   object-fit: cover;

@@ -6,11 +6,11 @@ const ContactInfo = () => {
     <div className="contact-container">
       <div className="contact-info">
         <strong>Contact Number:</strong>
-        <p className="contact-number">+1 (555) 123-4567</p>
+        <p className="contact-number">Whatsapp:+1 (780) 457-7174</p>
       </div>
       <div className="contact-info">
         <strong>Email:</strong>
-        <p className="email">example@example.com</p>
+        <p className="email">lana.moussa13@gmail.com</p>
       </div>
     </div>
   );
