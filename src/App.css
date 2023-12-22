@@ -1,11 +1,5 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -31,18 +25,8 @@
 
 
 .message-container {
-  margin-left: 22em;
+  margin-left: 1em;
   color: rgb(223, 210, 210);
   text-align: center;
   text-shadow: 4px 4px 4px rgba(9, 0, 0, 0.5); /* Adjust values as needed */
-}
-
-.poem {
-  color: rgb(223, 210, 210);
-  margin-left: 15em;
-  text-align: center;
-  display: grid;
-  font-size: xx-large;
-  font-weight: 600;
-  text-shadow: 4px 4px 4px rgba(8, 0, 0, 0.5); /* Adjust values as needed */
 }
