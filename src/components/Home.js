@@ -9,7 +9,7 @@ const Home = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '100vh', // Adjust as needed
-        display: 'flex',
+        display:'-ms-inline-flexbox',
         justifyContent: 'center',
         alignItems: 'center',
         color: '#fff', // Text color on top of the background
