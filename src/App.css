@@ -44,3 +44,33 @@ body {
 }
 
 /* Your existing Title.css styles can be added below this point */
+.container:hover .hover-container {
+  transform: translate(-50%, -50%) scale(1.05); /* Scale up on hover */
+}
+
+.container .hover-container h1 {
+  margin: 0;
+  color: #fff; /* Text color for the h1 elements */
+}
+
+/* Media queries for responsive design */
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 2em; /* Adjust margin-top for smaller screens */
+  }
+
+  .hover-container {
+    width: 90%; /* Adjust the width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 1em; /* Further adjust margin-top for even smaller screens */
+  }
+
+  .hover-container {
+    width: 95%; /* Further adjust the width for even smaller screens */
+  }
+}

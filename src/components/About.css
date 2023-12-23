@@ -19,7 +19,27 @@
   background-color: #f0e9ee; /* Light background color */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+@media screen and (max-width: 768px) {
+  .about-container {
+    width: 80%; /* Adjust the width for smaller screens */
+    top: 2em; /* Adjust top position for smaller screens */
+  }
 
+  .owner-image {
+    max-height: 40%; /* Further adjust maximum height for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .about-container {
+    width: 90%; /* Further adjust the width for even smaller screens */
+    top: 1em; /* Further adjust top position for even smaller screens */
+  }
+
+  .owner-image {
+    max-height: 30%; /* Further adjust maximum height for even smaller screens */
+  }
+}
 .owner-image {
   display: grid;
   width: 100%;

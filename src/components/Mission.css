@@ -23,4 +23,30 @@
     margin-bottom: 15px;
     font-size: 20px;
   }
+  @media screen and (max-width: 768px) {
+    .mission-container {
+      width: 80%; /* Adjust the width for smaller screens */
+    }
   
+    h2 {
+      font-size: 1.8em; /* Further adjust font size for smaller screens */
+    }
+  
+    p {
+      font-size: 1em; /* Further adjust font size for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .mission-container {
+      width: 90%; /* Further adjust the width for even smaller screens */
+    }
+  
+    h2 {
+      font-size: 1.5em; /* Further adjust font size for even smaller screens */
+    }
+  
+    p {
+      font-size: 0.9em; /* Further adjust font size for even smaller screens */
+    }
+  }

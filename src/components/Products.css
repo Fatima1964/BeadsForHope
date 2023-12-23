@@ -30,6 +30,23 @@
 .product-card h3 {
     text-align: center;
 }
+@media screen and (min-width: 600px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .product-card {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Further media queries for smaller screens if needed */
+@media screen and (max-width: 480px) {
+    .product-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 /* Display cards in two rows for screens larger than 600px */
 @media screen and (min-width: 600px) {

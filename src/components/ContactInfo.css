@@ -24,3 +24,24 @@
 .email {
   color: #15eb47;
 }
+@media screen and (max-width: 768px) {
+  .contact-container {
+    width: 80%; /* Adjust the width for smaller screens */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-info {
+    font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-container {
+    width: 90%; /* Further adjust the width for even smaller screens */
+  }
+
+  .contact-info {
+    font-size: 1.2em; /* Further adjust font size for even smaller screens */
+  }
+}
