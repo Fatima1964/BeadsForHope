@@ -5,11 +5,11 @@
   position: absolute;
   top: 5em; /* Adjust top position as needed */
   left: 28em;
-  display: inline-flex;
+  display: -ms-inline-grid;
   flex-direction: column;
   align-items: right;
-  text-align: center;
-  justify-content: center;
+  text-align: top;
+  justify-content: top;
   height: 35em;
   width: 35em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
