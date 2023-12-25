@@ -4,16 +4,16 @@
   display: grid;
   border: 5px solid #ccc;
   background-color: rgb(167, 19, 5);
-  padding: 20px;
-  width: 25em;
+  padding: 10px;
+  width: 20em;
   height: 20em;
-  margin: 5em auto;
+  margin: 3em auto;
   border-radius: 8px;
 }
 
 .contact-info {
-  font-size: 26px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .contact-number {
@@ -26,13 +26,13 @@
 
 @media screen and (max-width: 768px) {
   .contact-container {
-    width: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
   }
 
   .contact-info {
-    font-size: 1.5em;
+    font-size: 1.0em;
   }
 }
 
@@ -42,6 +42,6 @@
   }
 
   .contact-info {
-    font-size: 1.2em;
+    font-size: 1.0em;
   }
 }
