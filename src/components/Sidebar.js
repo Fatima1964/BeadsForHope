@@ -8,7 +8,7 @@ function Sidebar() {
     <div className="sidebar">
       <Link to="/home">Home</Link>
       <Link to="/about">About</Link> {/* Link to the new "About" page */}
-      <Link to="/contact">Contact Us</Link>
+      <Link to="/contact">Contact</Link>
      <Link to='/products'>Products</Link>
      <Link to='/mission'>Mission</Link>
     </div>
