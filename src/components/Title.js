@@ -78,6 +78,7 @@ const Title = () => {
       <div className="title-letter">
         <FontAwesomeIcon icon={faE2} />
       </div>
+      
     </div>
   );
 };

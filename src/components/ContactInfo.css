@@ -1,19 +1,18 @@
-/* styles.css */
+/* ContactInfo.css */
 
 .contact-container {
-  display:-ms-inline-grid;
+  display: grid;
   border: 5px solid #ccc;
   background-color: rgb(167, 19, 5);
   padding: 20px;
-  width: 15em;
-  height: 17em;
-  margin-left: 37em;
-  margin-top:25em;
+  width: 25em;
+  height: 20em;
+  margin: 5em auto;
   border-radius: 8px;
 }
 
 .contact-info {
-  font-size: 30px;
+  font-size: 26px;
   margin-bottom: 10px;
 }
 
@@ -24,24 +23,25 @@
 .email {
   color: #15eb47;
 }
+
 @media screen and (max-width: 768px) {
   .contact-container {
-    width: 80%; /* Adjust the width for smaller screens */
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
 
   .contact-info {
-    font-size: 1.5em; /* Adjust font size for smaller screens */
+    font-size: 1.5em;
   }
 }
 
 @media screen and (max-width: 480px) {
   .contact-container {
-    width: 90%; /* Further adjust the width for even smaller screens */
+    width: 90%;
   }
 
   .contact-info {
-    font-size: 1.2em; /* Further adjust font size for even smaller screens */
+    font-size: 1.2em;
   }
 }

@@ -1,76 +1,50 @@
-/* App.css */
+/* About.css */
 
-body {
-  background: url("/public/bb1.jpg") no-repeat center center fixed;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.app-container {
+.about-container {
   position: relative;
-}
-
-.container {
-  position: relative;
-  display:grid;
-  margin-top:5em;
-}
-
-.hover-container {
-  position: absolute;
-  top: 70%; /* Adjust the percentage for vertical positioning */
-  left: 50%;
-  margin-top:10em;
-  transform: translate(-50%, -50%) scale(1); /* Initial scale */
-  width: 80%;
-  max-width: 425px; /* Adjust max-width as needed */
-  padding: 20px;
-  background-color: rgba(255, 255, 255, 0.1); /* Adjust the background color and transparency as needed */
-  border: 4px solid #fff; /* Border style */
-  border-radius: 10px; /* Border radius */
+  margin: 5em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
-  transition: transform 0.3s;
+  justify-content: center;
+  max-width: 35em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid #a72d1f;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f0e9ee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.message-container {
+  color:aliceblue;
+  margin-left: 5em;
+}
+.owner-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid rgb(193, 30, 19);
 }
 
-.container:hover .hover-container {
-  transform: translate(-50%, -50%) scale(1.05); /* Scale up on hover */
-}
-
-.container .hover-container h1 {
-  margin: 0;
-  color: #fff; /* Text color for the h1 elements */
-}
-
-/* Your existing Title.css styles can be added below this point */
-.container:hover .hover-container {
-  transform: translate(-50%, -50%) scale(1.05); /* Scale up on hover */
-}
-
-.container .hover-container h1 {
-  margin: 0;
-  color: #fff; /* Text color for the h1 elements */
-}
-
-/* Media queries for responsive design */
+/* Media queries for responsiveness */
 
 @media screen and (max-width: 768px) {
-  .container {
-    margin-top: 2em; /* Adjust margin-top for smaller screens */
+  .about-container {
+    max-width: 80%;
   }
 
-  .hover-container {
-    width: 90%; /* Adjust the width for smaller screens */
+  .owner-image {
+    max-height: 40%;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .container {
-    margin-top: 1em; /* Further adjust margin-top for even smaller screens */
+  .about-container {
+    max-width: 90%;
   }
 
-  .hover-container {
-    width: 95%; /* Further adjust the width for even smaller screens */
+  .owner-image {
+    max-height: 30%;
   }
 }

@@ -9,6 +9,7 @@ import Products from "./components/Products";
 import "./App.css";
 import ContactInfo from './components/ContactInfo';
 import Mission from "./components/Mission";
+import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 function App() {
   return (
@@ -20,9 +21,6 @@ function App() {
           <div className="hover-container">
             <h1 className='message-container'>Welcome to my heart hub!!</h1>
             <h1 className='message-container'>Brace yourself for a journey</h1>
-            <h1 className='message-container'>Where every purchase will warm</h1>
-            <h1 className='message-container'>Your heart and put smiles</h1>
-            <h1 className='message-container'>On children's faces.</h1>
           </div>
         </div>
         <Routes>

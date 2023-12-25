@@ -1,59 +1,31 @@
 /* MotivationalWordsCloud.css */
 
 .tag-cloud-container {
-    max-width: 200px;
-    margin: 50px 40px;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.motivational-word-container {
+  margin: 15px;
+  padding: 20px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: flicker 4.5s infinite alternate;
+}
+
+.motivational-word-container:hover {
+  background-color: #2980b9;
+}
+
+@keyframes flicker {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
   }
-  
-  .motivational-word-container {
-    display:inline;
-    margin: 15px 15px;
-    margin-bottom: 20px;
-    font-weight: bold;
-    color:white;
-    padding: 20px;
-    border: 2px solid transparent;
-    border-radius: 5px;
-    cursor: pointer;
-    animation: flicker 4.5s infinite alternate;
+  50% {
+    opacity: 1.0;
+    transform: scale(1.2);
   }
-  
-  .motivational-word-container:nth-child(1) {
-    background-color: #3498db; /* Blue */
-  }
-  
-  .motivational-word-container:nth-child(2) {
-    background-color: #e74c3c; /* Red */
-  }
-  
-  .motivational-word-container:nth-child(3) {
-    background-color: #2ecc71; /* Green */
-  }
-  
-  .motivational-word-container:nth-child(4) {
-    background-color: #f39c12; /* Orange */
-  }
-  
-  .motivational-word-container:nth-child(5) {
-    background-color: #9b59b6; /* Purple */
-  }
-  
-  .motivational-word-container:nth-child(6) {
-    background-color: #ed1ee6; /* Purple */
-  }
-  
-  .motivational-word-container:hover {
-    background-color: #2980b9; /* Darker blue on hover */
-  }
-  
-  @keyframes flicker {
-    0%, 100% {
-      opacity: 1;
-      transform: scale(1);
-    }
-    50% {
-      opacity: 1.0;
-      transform: scale(1.2);
-    }
-  }
-  
+}

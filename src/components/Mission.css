@@ -1,52 +1,43 @@
 /* Mission.css */
 
 .mission-container {
-  display:grid;
-    width: 10em;
-    margin: 20px auto;
-    margin-left: 15em;
-    margin-top: 0em;
-    padding: 20px;
-    color:white;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: rgb(174, 18, 18);
-  }
-  
-  h2 {
-    color: #030910;
-    font-size: 36px;
-    text-align: center;
-  }
-  
-  p {
-    margin-bottom: 15px;
-    font-size: 20px;
-  }
-  @media screen and (max-width: 768px) {
-    .mission-container {
-      width: 80%; /* Adjust the width for smaller screens */
-    }
-  
-    h2 {
-      font-size: 1.8em; /* Further adjust font size for smaller screens */
-    }
-  
-    p {
-      font-size: 1em; /* Further adjust font size for smaller screens */
-    }
-  }
-  
-  @media screen and (max-width: 480px) {
-    .mission-container {
-      width: 90%; /* Further adjust the width for even smaller screens */
-    }
-  
-    h2 {
-      font-size: 1.5em; /* Further adjust font size for even smaller screens */
-    }
-  
-    p {
-      font-size: 0.9em; /* Further adjust font size for even smaller screens */
-    }
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.mission-box-container {
+  width: 80%;
+  max-width: 800px; /* Adjust the maximum width as needed */
+  padding: 20px;
+  border: 3px solid #01050e;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.mission-content {
+  text-align: center;
+}
+
+.mission-content h2 {
+  color: #cf1f0fd3;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.mission-content p {
+  color: #333;
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+.mission-content img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px; /* Optional: Add border-radius to the image */
+}
+
+/* Add any additional styling as needed */
