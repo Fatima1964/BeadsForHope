@@ -4,10 +4,11 @@
   display: grid;
   border: 5px solid #ccc;
   background-color: rgb(167, 19, 5);
-  padding: 10px;
+  padding: 15px;
   width: 20em;
   height: 20em;
   margin: 3em auto;
+  margin-left: 25em;
   border-radius: 8px;
 }
 
